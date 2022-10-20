@@ -1,0 +1,22 @@
+AUTO
+
+- id : intero - MEDIUMINT - PRIMARY-KEY AUTOINCREMENT NOT-NULL UNIQUE
+- condizione : VARCHAR(10) - NOT-NULL
+- categoria : VARCHAR(20)
+- marca : VARCHAR(20) - NOT-NULL
+- modello : VARCHAR(20) - NOT-NULL
+- anno immatricolazione : YEAR - NOT-NULL
+- prezzo : MEDIUMINT - NOT-NULL
+- alimentazione : VARCHAR (20) - NOT-NULL
+- cilindrata : SMALLINT - NOT-NULL
+- cambio : VARCHAR(20)
+- marce : TINYINT
+- porte : TINYINT
+- posti : TINYINT
+- km : MEDIUMINT - NOT-NULL
+- colore : VARCHAR(30) - NOT-NULL
+- consumi : FLOAT(3,1)
+- classe emissioni : VARCHAR(10)
+- km certificati : VARCHAR(2)
+- cruise control : VARCHAR(2)
+- sensori parcheggio : VARCHAR(2)
