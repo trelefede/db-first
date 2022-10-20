@@ -1,6 +1,6 @@
 AUTO
 
-- id : intero - MEDIUMINT - PRIMARY-KEY AUTOINCREMENT NOT-NULL UNIQUE
+- id : BIGINT - MEDIUMINT - PRIMARY-KEY AUTOINCREMENT NOT-NULL UNIQUE
 - condizione : VARCHAR(10) - NOT-NULL
 - categoria : VARCHAR(20)
 - marca : VARCHAR(20) - NOT-NULL
@@ -16,7 +16,8 @@ AUTO
 - km : MEDIUMINT - NOT-NULL
 - colore : VARCHAR(30) - NOT-NULL
 - consumi : FLOAT(3,1)
-- classe emissioni : VARCHAR(10)
-- km certificati : VARCHAR(2)
-- cruise control : VARCHAR(2)
-- sensori parcheggio : VARCHAR(2)
+- classe_emissioni : VARCHAR(10)
+- km_certificati : VARCHAR(2)
+- cruise_control : VARCHAR(2)
+- sensori_parcheggio : VARCHAR(2)
+- descrizione : TEXT
